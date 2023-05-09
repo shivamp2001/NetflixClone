@@ -1,0 +1,22 @@
+.container-logo{
+    position: relative;
+    bottom: 570px;
+    position: fixed;
+}
+.container-logo img{
+    width: 250px;
+    height: 100px;
+}
+.container-logo button{
+   background-color: red;
+   position: relative;
+   bottom: 100px;
+   height: 40px;
+   width: 80px;
+   margin: 23px 1300px;
+   border-radius: 6px;
+   font-weight: bold;
+   color: white;
+   /* position: fixed; */
+}
+

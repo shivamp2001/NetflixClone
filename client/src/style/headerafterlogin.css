@@ -1,0 +1,46 @@
+.navbar-div{
+    /* height: 50px; */
+    
+}
+
+.header-navbar{
+    display: flex;
+    text-decoration: none;
+    flex-direction: row;
+    height: 65px;
+    margin-top: 20px;
+    
+}
+
+.header-navbar ul{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    left: 50px;
+    gap: 20px;
+    font-size: 24px;
+    list-style-type: none;
+    top: 15px;
+    
+    
+}
+a{
+     color: white;
+     text-decoration: none;
+}
+.icons-header{
+    display: flex;
+    position: relative;
+    margin-left: auto;
+    margin-right: 30px;
+    font-size: 20px;
+    top: 17px;
+    gap: 15px;
+}
+
+.header-navbar img{
+    position: relative;
+    bottom: 10px;
+    width: 150px;
+    height: 80px;
+}

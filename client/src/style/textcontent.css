@@ -1,0 +1,14 @@
+.text-content{
+    position: absolute;
+    color: white;
+    position: fixed;
+}
+.text-content h1{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.text-content h3{
+font-size: 24px;
+margin-left: 120px;
+}
