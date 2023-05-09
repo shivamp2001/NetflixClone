@@ -2,9 +2,11 @@ const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
 const route = require("./src/routes/route");
+require("dotenv").config()
+const DATABASE=process.env.DATABASE
 const cors=require("cors")
 
-mongoose.connect("mongodb+srv://shivamp2001:shivamp2001@mycluster.au9iv5p.mongodb.net/netflix-server")
+mongoose.connect(DATABASE)
   .catch((err) => console.log(err))
   .then(() => console.log("Database connected successfully"));
 app.use(cors())
